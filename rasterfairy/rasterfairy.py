@@ -39,7 +39,7 @@
 # SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 import numpy as np
-import prime
+import rasterfairy.prime
 import math
 
 def transformPointCloud2D( points2d, target = None, autoAdjustCount = True, proportionThreshold = 0.4):
